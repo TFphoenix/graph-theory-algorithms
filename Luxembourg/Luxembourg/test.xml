@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<map description="test">
+  <nodes>
+    <node id="0" longitude="100" latitude="100"/>
+    <node id="1" longitude="150" latitude="150"/>
+    <node id="2" longitude="50" latitude="200"/>
+    <node id="3" longitude="200" latitude="200"/>
+    <node id="4" longitude="250" latitude="150"/>
+    <node id="5" longitude="250" latitude="200"/>
+    <node id="6" longitude="300" latitude="100"/>
+    <node id="7" longitude="175" latitude="150"/>
+  </nodes>
+  <arcs>
+    <arc from="0" to="1" length="10"/>
+    <arc from="1" to="4" length="5"/>
+    <arc from="1" to="2" length="15"/>
+    <arc from="1" to="3" length="1"/>
+    <arc from="2" to="3" length="25"/>
+    <arc from="3" to="4" length="2"/>
+    <arc from="3" to="1" length="12"/>
+    <arc from="4" to="5" length="3"/>
+    <arc from="5" to="6" length="2"/>
+    <arc from="5" to="7" length="5"/>
+    <arc from="7" to="5" length="6"/>
+    <arc from="0" to="7" length="2"/>
+    <arc from="7" to="0" length="5"/>
+    <arc from="6" to="5" length="4"/>
+  </arcs>
+</map>
